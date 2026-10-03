@@ -3,323 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFC Profiling - Secure Digital Identity</title>
+    <title>NFC Profiling</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="nav-container">
-            <div class="logo">
-                <span class="logo-icon">⚡</span>
-                <span class="logo-text">NFC Profiling</span>
+    <div class="container">
+        <!-- Profile Section -->
+        <div class="profile">
+            <div class="profile-image-wrapper">
+                <img src="https://via.placeholder.com/150" alt="Profile" class="profile-image">
             </div>
-            <ul class="nav-links">
-                <li><a href="#features">Features</a></li>
-                <li><a href="#demo">How It Works</a></li>
-                <li><a href="#benefits">Benefits</a></li>
-                <li><a href="#contact" class="nav-cta">Get Started</a></li>
-            </ul>
+            <h1 class="name">NFC Profiling</h1>
+            <p class="tagline">Secure Digital Identity</p>
         </div>
-    </nav>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-bg">
-            <div class="gradient-orb gradient-1"></div>
-            <div class="gradient-orb gradient-2"></div>
-            <div class="gradient-orb gradient-3"></div>
+        <!-- Links Section -->
+        <div class="links">
+            <a href="https://instagram.com" target="_blank" class="link-item instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+            </a>
+            <a href="https://wa.me/" target="_blank" class="link-item whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="https://youtube.com" target="_blank" class="link-item youtube">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </a>
+            <a href="mailto:hello@nfcprofiling.com" class="link-item email">
+                <i class="fas fa-envelope"></i>
+                <span>Email</span>
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="link-item linkedin">
+                <i class="fab fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="link-item twitter">
+                <i class="fab fa-twitter"></i>
+                <span>Twitter</span>
+            </a>
         </div>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h1 class="hero-title">
-                    <span class="text-gradient">Secure Identity</span>
-                    <span class="text-highlight">At Light Speed</span>
-                </h1>
-                <p class="hero-subtitle">Advanced NFC profiling technology for instant, secure identity verification. Built for enterprises that demand speed and security.</p>
-                <div class="hero-ctas">
-                    <button class="btn btn-primary">Start Free Trial</button>
-                    <button class="btn btn-secondary">Watch Demo</button>
-                </div>
-                <p class="hero-footer-text">No credit card required • Instant setup • Enterprise-grade security</p>
-            </div>
-            <div class="hero-visual">
-                <div class="card-illustration">
-                    <div class="nfc-card">
-                        <div class="card-inner">
-                            <div class="card-shine"></div>
-                            <div class="card-content">
-                                <div class="card-chip"></div>
-                                <p class="card-text">NFC ID</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="signal-waves">
-                        <div class="wave wave-1"></div>
-                        <div class="wave wave-2"></div>
-                        <div class="wave wave-3"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Features Section -->
-    <section id="features" class="features">
-        <div class="section-header">
-            <h2>Powerful Features</h2>
-            <p>Everything you need for seamless NFC identity management</p>
-        </div>
-        <div class="features-grid">
-            <div class="feature-card">
-                <div class="feature-icon">🔐</div>
-                <h3>Military-Grade Security</h3>
-                <p>256-bit encryption with multi-layer security protocols and compliance with international standards</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">⚡</div>
-                <h3>Lightning Fast</h3>
-                <p>Sub-millisecond verification with 99.99% uptime guarantee and global infrastructure</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📱</div>
-                <h3>Universal Compatibility</h3>
-                <p>Works with any NFC-enabled device. No special hardware or additional setup required</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🔗</div>
-                <h3>API Integration</h3>
-                <p>Comprehensive REST API with webhook support for seamless integration into existing systems</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">📊</div>
-                <h3>Real-Time Analytics</h3>
-                <p>Detailed dashboards with actionable insights, custom reports, and data export capabilities</p>
-            </div>
-            <div class="feature-card">
-                <div class="feature-icon">🌍</div>
-                <h3>Global Scale</h3>
-                <p>Manage millions of profiles with automatic scaling, load balancing, and multi-region deployment</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Demo Section -->
-    <section id="demo" class="demo">
-        <div class="section-header">
-            <h2>How It Works</h2>
-            <p>Simple, intuitive, and powerful</p>
-        </div>
-        <div class="demo-container">
-            <div class="demo-steps">
-                <div class="demo-step active" data-step="1">
-                    <div class="step-number">01</div>
-                    <h3>Create Profile</h3>
-                    <p>Register and create your NFC identity profile in seconds</p>
-                </div>
-                <div class="demo-step" data-step="2">
-                    <div class="step-number">02</div>
-                    <h3>Encode Data</h3>
-                    <p>Securely encode your identity onto NFC chips with military-grade encryption</p>
-                </div>
-                <div class="demo-step" data-step="3">
-                    <div class="step-number">03</div>
-                    <h3>Deploy & Distribute</h3>
-                    <p>Roll out NFC cards to your users and manage from a unified dashboard</p>
-                </div>
-                <div class="demo-step" data-step="4">
-                    <div class="step-number">04</div>
-                    <h3>Instant Verification</h3>
-                    <p>One tap verification across all your touchpoints and integrations</p>
-                </div>
-            </div>
-            <div class="demo-visual">
-                <div class="demo-screen" id="demoScreen">
-                    <div class="demo-content step-1-content">
-                        <div class="mock-form">
-                            <input type="text" placeholder="Full Name" disabled>
-                            <input type="email" placeholder="Email Address" disabled>
-                            <button class="btn-small">Create Profile</button>
-                        </div>
-                    </div>
-                    <div class="demo-content step-2-content" style="display: none;">
-                        <div class="encoding-animation">
-                            <div class="encoding-bar"></div>
-                            <p>Encrypting data...</p>
-                        </div>
-                    </div>
-                    <div class="demo-content step-3-content" style="display: none;">
-                        <div class="cards-stack">
-                            <div class="card-stack">Card 1</div>
-                            <div class="card-stack">Card 2</div>
-                            <div class="card-stack">Card 3</div>
-                        </div>
-                    </div>
-                    <div class="demo-content step-4-content" style="display: none;">
-                        <div class="verification-success">
-                            <div class="success-icon">✓</div>
-                            <p>Identity Verified</p>
-                            <small>0.23ms</small>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Benefits Section -->
-    <section id="benefits" class="benefits">
-        <div class="benefits-container">
-            <div class="benefits-text">
-                <h2>Why Choose NFC Profiling?</h2>
-                <p>Built for enterprises that demand reliability, security, and performance.</p>
-                <div class="benefits-list">
-                    <div class="benefit-item">
-                        <span class="benefit-check">✓</span>
-                        <div>
-                            <h4>Enterprise Trust</h4>
-                            <p>Used by Fortune 500 companies and government agencies</p>
-                        </div>
-                    </div>
-                    <div class="benefit-item">
-                        <span class="benefit-check">✓</span>
-                        <div>
-                            <h4>Compliance Ready</h4>
-                            <p>ISO 27001, SOC 2, GDPR, and HIPAA compliant</p>
-                        </div>
-                    </div>
-                    <div class="benefit-item">
-                        <span class="benefit-check">✓</span>
-                        <div>
-                            <h4>24/7 Support</h4>
-                            <p>Dedicated support team available round the clock</p>
-                        </div>
-                    </div>
-                    <div class="benefit-item">
-                        <span class="benefit-check">✓</span>
-                        <div>
-                            <h4>Zero Downtime</h4>
-                            <p>99.99% SLA with automatic failover and redundancy</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="benefits-visual">
-                <div class="metrics-card">
-                    <div class="metric">
-                        <div class="metric-value">99.99%</div>
-                        <div class="metric-label">Uptime</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">0.23ms</div>
-                        <div class="metric-label">Latency</div>
-                    </div>
-                    <div class="metric">
-                        <div class="metric-value">256-bit</div>
-                        <div class="metric-label">Encryption</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Pricing Section -->
-    <section class="pricing">
-        <div class="section-header">
-            <h2>Simple, Transparent Pricing</h2>
-            <p>Start free, upgrade as you scale</p>
-        </div>
-        <div class="pricing-cards">
-            <div class="pricing-card">
-                <h3>Starter</h3>
-                <div class="price">Free</div>
-                <p class="price-desc">Perfect for trying it out</p>
-                <ul class="pricing-features">
-                    <li>✓ Up to 1,000 profiles</li>
-                    <li>✓ Basic API access</li>
-                    <li>✓ Email support</li>
-                    <li>✗ Advanced analytics</li>
-                </ul>
-                <button class="btn btn-secondary">Get Started</button>
-            </div>
-            <div class="pricing-card featured">
-                <div class="badge">Most Popular</div>
-                <h3>Pro</h3>
-                <div class="price">$299<span>/mo</span></div>
-                <p class="price-desc">For growing teams</p>
-                <ul class="pricing-features">
-                    <li>✓ Unlimited profiles</li>
-                    <li>✓ Full API access</li>
-                    <li>✓ Priority support</li>
-                    <li>✓ Advanced analytics</li>
-                </ul>
-                <button class="btn btn-primary">Start Free Trial</button>
-            </div>
-            <div class="pricing-card">
-                <h3>Enterprise</h3>
-                <div class="price">Custom</div>
-                <p class="price-desc">For large scale deployments</p>
-                <ul class="pricing-features">
-                    <li>✓ Unlimited everything</li>
-                    <li>✓ Dedicated account manager</li>
-                    <li>✓ 24/7 phone support</li>
-                    <li>✓ Custom integrations</li>
-                </ul>
-                <button class="btn btn-secondary">Contact Sales</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section id="contact" class="cta-section">
-        <div class="cta-content">
-            <h2>Ready to Secure Your Identity?</h2>
-            <p>Join hundreds of enterprises using NFC Profiling for instant, secure verification</p>
-            <form class="cta-form">
-                <input type="email" placeholder="Enter your email" required>
-                <button type="submit" class="btn btn-primary">Start Free Trial</button>
-            </form>
-            <p class="cta-footer">No credit card required • Enterprise-grade security • 30-day free trial</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-section">
-                <h4>NFC Profiling</h4>
-                <p>Secure identity at light speed</p>
-            </div>
-            <div class="footer-section">
-                <h4>Product</h4>
-                <ul>
-                    <li><a href="#">Features</a></li>
-                    <li><a href="#">Pricing</a></li>
-                    <li><a href="#">Security</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Company</h4>
-                <ul>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h4>Legal</h4>
-                <ul>
-                    <li><a href="#">Privacy</a></li>
-                    <li><a href="#">Terms</a></li>
-                    <li><a href="#">Security</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer-bottom">
+        <!-- Footer -->
+        <footer class="footer">
             <p>&copy; 2024 NFC Profiling. All rights reserved.</p>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+        </footer>
+    </div>
 </body>
 </html>

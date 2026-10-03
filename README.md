@@ -1,94 +1,79 @@
-# NFC Profiling - Modern Landing Page
+# NFC Profiling - Minimal Profile Page
 
-A sleek, modern landing page for an NFC profiling business with smooth animations, gradient effects, and interactive demos.
+A clean, minimal, and elegant profile landing page with social media links and a light, premium aesthetic.
 
 ## Features
 
-✨ **Modern Design**
-- Dark theme with gradient accents
-- Smooth animations and transitions
-- Glassmorphism effects
-- Floating gradient orbs
+✨ **Minimal Design**
+- Off-white/cream gradient background
+- Profile image with subtle shadow
+- Simple, elegant typography
+- No unnecessary elements
 
-🎯 **Key Sections**
-- **Hero**: Eye-catching intro with animated NFC card visualization
-- **Features**: 6 key features in an interactive grid
-- **Demo**: Step-by-step interactive walkthrough
-- **Benefits**: Enterprise trust highlights with metrics
-- **Pricing**: 3-tier pricing structure
-- **CTA**: Conversion-focused call-to-action
-- **Footer**: Complete footer navigation
+🔗 **Social Links**
+- Instagram
+- WhatsApp
+- YouTube
+- Email
+- LinkedIn
+- Twitter
 
-🔧 **Interactive Elements**
-- Smooth scroll navigation
-- Demo step switching
-- Form submissions
-- Scroll animations
-- Hover effects on all interactive elements
+📱 **Responsive**
+- Works perfectly on mobile and desktop
+- Touch-friendly link buttons
+- Minimal scrolling required
 
-📱 **Responsive Design**
-- Fully responsive from mobile to desktop
-- Optimized touch interactions
-- Mobile-friendly navigation
-
-## File Structure
-
-```
-├── index.html      # Main HTML structure
-├── styles.css      # All styling and animations
-├── script.js       # Interactive functionality
-└── README.md       # Documentation
-```
+🎨 **Design Details**
+- Glassmorphism effect on links
+- Smooth hover animations
+- Social-branded hover colors
+- Premium light aesthetic
 
 ## Customization
 
-### Colors
-Edit the CSS custom properties in `styles.css`:
-
-```css
-:root {
-    --primary: #0066ff;        /* Main blue */
-    --accent: #00d4ff;         /* Cyan accent */
-    --bg-dark: #0f0f1e;        /* Dark background */
-    --success: #00d97e;        /* Success green */
-}
+### Change Profile Image
+Update the `src` in `index.html`:
+```html
+<img src="YOUR_IMAGE_URL" alt="Profile" class="profile-image">
 ```
 
-### Content
-- Update text in `index.html`
-- Modify service descriptions in feature cards
-- Update pricing tiers and features
-- Customize form fields
+### Update Links
+Modify the href attributes in the link items:
+```html
+<a href="https://your-instagram-url" target="_blank" class="link-item instagram">
+    <i class="fab fa-instagram"></i>
+    <span>Instagram</span>
+</a>
+```
 
-### Animations
-- Adjust animation durations in CSS
-- Modify gradient colors for floating orbs
-- Customize hover effects
+### Change Text
+- Update `.name` for your name/business name
+- Update `.tagline` for your tagline
+- Update footer copyright
 
-## Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
+### Customize Colors
+Edit the background gradient in `styles.css`:
+```css
+background: linear-gradient(135deg, #faf8f3 0%, #f5f0e8 100%);
+```
 
 ## Deployment
 
-Deploy to any static hosting:
-- GitHub Pages
-- Vercel
-- Netlify
-- AWS S3
-- Cloudflare Pages
+1. Push to GitHub
+2. Go to Vercel.com
+3. Click "Add New" → "Project"
+4. Select your repository
+5. Click "Import"
+6. Done! Your site is live
 
-## Performance
+## Browser Support
 
-- Optimized CSS with minimal repaints
-- Hardware-accelerated animations
-- Efficient JavaScript (no external dependencies)
-- Fast load times
+- Chrome
+- Firefox
+- Safari
+- Edge
+- Mobile browsers
 
 ## License
 
-Free to use and modify for your business.
+Free to use and modify.
